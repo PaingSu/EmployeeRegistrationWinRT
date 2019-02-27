@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="EmployeeRegistrationWinRT.LoginPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:EmployeeRegistrationWinRT"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#FF476AA6">
+        <Button x:Name="btnDelete" Content="Delete Page" HorizontalAlignment="Left" Margin="214,281,0,0" VerticalAlignment="Top" Width="283" Height="84" FontSize="25" Click="btnDelete_Click" Background="#FF06258F" Foreground="#FF07BED1" BorderBrush="#FF5C69E6"/>
+        <Button x:Name="btnUpdate" Content="Update Page" HorizontalAlignment="Left" Margin="214,138,0,0" VerticalAlignment="Top" Width="283" Height="84" FontSize="25" Click="btnUpdate_Click" Background="#FF06258F" Foreground="#FF07BED1" BorderBrush="#FF5C69E6"/>
+        <Button x:Name="btnGoBackToMain" AutomationProperties.AutomationId="btnGoBackToMain" x:Uid="btnGoBackToMain" Content="Go Back To Main" HorizontalAlignment="Left" Margin="851,281,0,0" VerticalAlignment="Top" Width="283" Height="84" FontSize="25" Click="btnGoBack_Click" Background="#FF06258F" Foreground="#FF07BED1" BorderBrush="#FF5C69E6"/>
+
+    </Grid>
+</Page>
